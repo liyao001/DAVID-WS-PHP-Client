@@ -75,7 +75,7 @@ class getTermClusterReport {
 	public $args4;
 	function __construct($overlap, $initialSeed, $finalSeed, $linkage, $kappa) {
 		$this->args0 = $overlap;
-		$this->args1 = $initalSeed;
+		$this->args1 = $initialSeed;
 		$this->args2 = $finalSeed;
 		$this->args3 = $linkage;
 		$this->args4 = $kappa;
